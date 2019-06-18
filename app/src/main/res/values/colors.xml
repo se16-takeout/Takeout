@@ -3,4 +3,8 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="normal_select_color">#666666</color>
+    <color name="text_tab_selected">#3C4AD7</color>
+    <color name="text_tab_normal">#666666</color>
+    <color name="gray">#f9f9f9</color>
 </resources>

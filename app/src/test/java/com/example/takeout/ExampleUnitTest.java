@@ -1,4 +1,4 @@
-package cn.itcast.takeout;
+package com.example.takeout;
 
 import org.junit.Test;
 

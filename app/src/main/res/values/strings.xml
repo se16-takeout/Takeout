@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Takeout</string>
     <string name="splashtext">来了老弟</string>
-    <string name="phone_hint">请输入电话</string>
-    <string name="password_text">请输入密码（6位）</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/r1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.User_main">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/frament"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RadioGroup
+        android:layout_alignParentBottom="true"
+        android:id="@+id/radiogroup"
+        android:background="#F7F7F7"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/radio_one"
+            android:text="商家"
+            android:checked="true"
+            style="@style/main_button"
+            android:drawableTop="@drawable/radio_button_status"
+            />
+        <RadioButton
+            android:layout_weight="1"
+            style="@style/main_button"
+            android:id="@+id/radio_two"
+            android:text="订单"
+            android:drawableTop="@drawable/radio_button_status"
+            />
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/radio_three"
+            android:text="我的"
+            style="@style/main_button"
+            android:drawableTop="@drawable/radio_button_status"
+            />
+    </RadioGroup>
+</RelativeLayout>
