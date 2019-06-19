@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.takeout">
 
     <application
@@ -8,21 +9,29 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme.NoActionBar">
+        android:theme="@style/AppTheme.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".activity.SplashActivity">
             <intent-filter>
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
         </activity>
-        <activity android:name=".activity.Main_Login">
+        <activity android:name=".activity.Dinner_shops"/>
+        <activity android:name=".activity.Main_Login"/>
+        <activity android:name=".activity.Dinner_register">
         </activity>
-        <activity android:name=".activity.User_register">
+        <activity android:name=".activity.Seller_register">
         </activity>
-        <activity android:name=".activity.Shop_register">
+        <activity android:name=".activity.Dinner_main">
         </activity>
-        <activity android:name=".activity.User_main">
+        <activity android:name=".activity.AddNewadress">
         </activity>
+        <activity android:name=".activity.Addadress">
+        </activity>
+        <activity android:name=".activity.Dinner_order_commit">
+        </activity>
+
     </application>
 
 </manifest>

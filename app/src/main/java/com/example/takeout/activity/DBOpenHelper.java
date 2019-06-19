@@ -7,6 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import java.util.ArrayList;
 
+//李楷 2016051604109 软件工程 2016级
 
 public class DBOpenHelper extends SQLiteOpenHelper {
 

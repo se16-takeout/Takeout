@@ -19,7 +19,9 @@ android {
 }
 
 dependencies {
+    implementation 'se.emilsjolander:stickylistheaders:2.7.0'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     testImplementation 'junit:junit:4.12'
@@ -27,15 +29,17 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
-
+    implementation 'com.flipboard:bottomsheet-core:1.5.1'
     implementation 'com.jaeger.statusbarutil:library:1.5.1'
-    //侧滑库
     implementation 'cn.bingoogolapple:bga-swipebacklayout:1.2.0'
-    //banner
+        //banner
     implementation 'com.youth.banner:banner:1.4.10'
-    //仿ios弹窗
+        //仿ios弹窗
     implementation 'com.kongzue.dialog:dialog:2.4.8.1'
     //下拉刷新库
     implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1'
     implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+
+
 }

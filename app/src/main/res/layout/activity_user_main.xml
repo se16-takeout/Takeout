@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".activity.User_main">
+    tools:context=".activity.Dinner_main">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/frament"

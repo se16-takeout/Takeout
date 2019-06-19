@@ -18,6 +18,9 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
+
+//李楷 2016051604109 软件工程 2016级
+
 public class Main_Login extends AppCompatActivity {
     private DBOpenHelper mDBOpenHelper;
 
@@ -60,17 +63,15 @@ public class Main_Login extends AppCompatActivity {
         switch (view.getId())
         {
             case R.id.user:
-                Intent intent = new Intent(this,User_register.class);
+                Intent intent = new Intent(this, Dinner_register.class);
                 startActivity(intent);
-                finish();
                 break;
             case R.id.loginactivity_login:
                 login();
                 break;
             case R.id.shop:
-                Intent intent1 = new Intent(this,Shop_register.class);
+                Intent intent1 = new Intent(this, Seller_register.class);
                 startActivity(intent1);
-                finish();
                 break;
         }
     }
@@ -93,9 +94,10 @@ public class Main_Login extends AppCompatActivity {
             }
 
             if (match) {
-                Intent intent=new Intent(this,User_main.class);
+                Intent intent=new Intent(this, Dinner_main.class);
                 startActivity(intent);
                 Toast.makeText(this, "登录成功", Toast.LENGTH_SHORT).show();//TODO 跳转
+                finish();
             }else {
                 Toast.makeText(this, "用户名或密码不正确，请重新输入", Toast.LENGTH_SHORT).show();
             }

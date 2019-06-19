@@ -7,9 +7,7 @@ import android.graphics.Paint;
 
 import java.util.Random;
 
-/**
- * Created by littlecurl 2018/6/24
- */
+//李楷 2016051604109 软件工程 2016级
 
 public class Code {
     /**

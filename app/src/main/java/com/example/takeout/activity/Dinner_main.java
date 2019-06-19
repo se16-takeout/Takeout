@@ -22,8 +22,9 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
+//李楷 2016051604109 软件工程 2016级
 
-public class User_main extends FragmentActivity {
+public class Dinner_main extends FragmentActivity {
 
     private List<Fragment> fragmentList;
     public int currentTabPosition;
@@ -57,7 +58,6 @@ public class User_main extends FragmentActivity {
         fragments.add(new FragmentHome());
         fragments.add(new FragmentOrder());
         fragments.add(new FragmentMine());
-
         adapter = new FragAdapter(getSupportFragmentManager(),
                 fragments);
         //设定适配器

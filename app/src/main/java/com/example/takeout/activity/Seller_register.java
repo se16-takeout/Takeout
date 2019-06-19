@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.example.takeout.R;
 import butterknife.ButterKnife;
 
-public class Shop_register extends AppCompatActivity {
+public class Seller_register extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -13,15 +13,17 @@
         <LinearLayout
             android:id="@+id/fun1"
             android:layout_width="0dp"
+            android:onClick="onClick"
+            android:clickable="true"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:orientation="vertical">
-
+            android:orientation="vertical"
+            android:focusable="true">
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@mipmap/food" />
+                android:src="@drawable/food" />
 
             <TextView
                 android:layout_width="wrap_content"

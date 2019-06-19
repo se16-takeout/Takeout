@@ -16,7 +16,9 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class User_register extends AppCompatActivity {
+//李楷 2016051604109 软件工程 2016级
+
+public class Dinner_register extends AppCompatActivity {
 
     private String realCode;
     private DBOpenHelper mDBOpenHelper;
