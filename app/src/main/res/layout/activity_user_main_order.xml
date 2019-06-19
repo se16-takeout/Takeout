@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-<TextView
-    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:text="hello world"
-    android:gravity="center"/>
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tx_ordertitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/myoder"
+        android:textSize="28sp"
+        android:textColor="#00BCD4"
+        android:background="#B9EFE3"
+        />
+
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </ListView>
 </LinearLayout>
