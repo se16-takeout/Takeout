@@ -7,27 +7,38 @@
     android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/dinerpic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
       android:src="@drawable/ic_launcher_background"
         android:layout_marginTop="150dp"
         />
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/myname"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:onClick="onClick"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/myinfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="@string/dinerinfo" />
+        android:text="@string/dinerinfo"
+        android:onClick="onClick"/>
 
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/loginout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="地址修改" />
+        android:text="@string/changeaddress"
+        android:onClick="onClick"/>
 
     <Button
         android:id="@+id/button"

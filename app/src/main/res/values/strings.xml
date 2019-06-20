@@ -7,4 +7,6 @@
     <string name="myoder">我的订单</string>
     <string name="exit">退出登录</string>
     <string name="dinerinfo">我的信息</string>
+    <string name="changeaddress">地址修改</string>
+    <string name="myname">我的名字</string>
 </resources>
