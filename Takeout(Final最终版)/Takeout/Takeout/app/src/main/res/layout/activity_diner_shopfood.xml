@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lLayout_shop_food"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_shopName"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:text="商店名称"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/tv_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:text="联系电话"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:text="商家地址"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listView_shop_food"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lLayout_shop_food"
+        android:layout_above="@+id/rLayout_car">
+    </ListView>
+
+
+    <RelativeLayout
+        android:id="@+id/rLayout_car"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/iv_car_wan"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/wan"/>
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/iv_car_wan"
+            android:text="0"
+            android:textSize="20dp"
+            android:textColor="@color/hongse"/>
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/tv_number"
+            android:layout_marginLeft="50dp"
+            android:text="￥ 0"
+            android:textSize="30dp"
+            android:gravity="center_vertical|left"/>
+        <Button
+            android:id="@+id/bt_goto_fuqian"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:text="去结算"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
