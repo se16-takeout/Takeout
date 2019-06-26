@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="normal_select_color">#666666</color>
+    <color name="text_tab_selected">#3C4AD7</color>
+    <color name="text_tab_normal">#666666</color>
+    <color name="gray">#f9f9f9</color>
+    <color name="white">#ffffff</color>
+    <color name="gray_color">#4C4C4C</color>
+    <color name="divider_color">#eeeeee</color>
+    <color name="color_orign">#F47A46</color>
+    <color name="hongse">#FF0000</color>
+</resources>

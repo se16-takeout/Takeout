@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Takeout</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="myoder">我的订单</string>
+    <string name="exit">退出登录</string>
+    <string name="dinerinfo">我的信息</string>
+    <string name="changeaddress">地址修改</string>
+    <string name="myname">我的名字</string>
+    <string name="cinfo">信息修改</string>
+    <string name="showaddress">我的收货地址</string>
+    <string name="bt_change">保存修改</string>
+</resources>

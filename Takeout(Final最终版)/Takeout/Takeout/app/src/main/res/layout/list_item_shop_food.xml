@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_food"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/tv_food"
+        android:layout_toRightOf="@id/iv_food"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="菜品名称" />
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_toRightOf="@id/iv_food"
+        android:layout_below="@id/tv_food"
+        android:text="￥0.0元/份"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+</RelativeLayout>

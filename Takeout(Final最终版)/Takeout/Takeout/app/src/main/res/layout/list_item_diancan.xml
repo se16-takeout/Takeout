@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/list_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/list_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/list_image"
+        android:layout_marginLeft="10dp"
+        android:text="青椒肉丝"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/list_money"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/list_image"
+        android:layout_toRightOf="@+id/list_image"
+        android:layout_marginLeft="10dp"
+        android:text="￥ 0"
+        android:textSize="20dp"
+        android:textColor="@color/hongse"/>
+    <ImageView
+        android:id="@+id/list_add"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_alignBottom="@+id/list_image"
+        android:background="@drawable/add"
+        />
+    <TextView
+        android:id="@+id/list_number"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toLeftOf="@+id/list_add"
+        android:layout_marginRight="10dp"
+        android:layout_alignBottom="@+id/list_image"
+        android:text="0"
+        android:textSize="20dp"
+        android:visibility="invisible"/>
+    <ImageView
+        android:id="@+id/list_reduce"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toLeftOf="@+id/list_number"
+        android:layout_marginRight="10dp"
+        android:layout_alignBottom="@+id/list_number"
+        android:background="@drawable/reduce"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
