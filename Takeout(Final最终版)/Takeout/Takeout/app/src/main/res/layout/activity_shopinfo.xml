@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/back_colse_view"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+            <ImageView
+                android:id="@+id/iv_back_mine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/black_left_iv"
+                android:onClick="click" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/id_base_title_tv"
+            android:text="商家信息"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/edit_photo_relative"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FFF"
+        android:clickable="true"
+        >
+        <TextView
+            android:id="@+id/tv_touxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="头像"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="#454343"
+            />
+        <com.example.test01.others.CircleImageView02
+            android:id="@+id/iv_photo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:onClick="click"
+            android:src="@drawable/touxiang"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/tv_shopname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商家名称:"
+            android:layout_marginLeft="10dp"
+            android:textColor="#454343"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/ed_shop_name"
+            android:layout_toRightOf="@+id/tv_shopname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入商家名称"
+            android:textSize="15sp"
+            android:maxLines="3"
+            android:paddingLeft="3dp"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_save_info"
+        android:text="保存修改"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:onClick="click"/>
+
+</LinearLayout>

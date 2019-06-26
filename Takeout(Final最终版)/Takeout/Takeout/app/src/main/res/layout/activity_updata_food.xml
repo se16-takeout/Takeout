@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改菜品信息"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/lLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp">
+        <TextView
+            android:id="@+id/tv_01"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="菜品名称"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/ed_foodName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/tv_01"
+            android:hint="菜品名称"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lLayout_02"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/lLayout_01"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/tv_02"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="菜品价格"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/ed_foodPrice"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/tv_02"
+            android:hint="菜品价格"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_updata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lLayout_02"
+        android:text="确认修改"/>
+    <Button
+        android:id="@+id/bt_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_updata"
+        android:text="删除菜品"/>
+
+
+</RelativeLayout>
